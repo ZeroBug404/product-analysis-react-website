@@ -7,12 +7,6 @@ import "./Home.css";
 const Home = () => {
     const [reviews, setReviews] = useReviews();
 
-    // useEffect(() => {
-    //     fetch('reviews.json')
-    //     .then(res => res.json())
-    //     .then(data => setReviews(data))
-    // },[])
-
   return (
     <div>
       <div className="main-header">
