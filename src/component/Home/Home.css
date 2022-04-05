@@ -1,0 +1,25 @@
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.main-header-left{
+    text-align: center;
+}
+.main-header-left h2{
+    font-size: 45px;
+    color: rgb(2, 2, 73);
+}
+.main-header-left p{
+    font-size: 20px;
+    color: rgb(2, 2, 73);
+    padding: 0px 5px;
+}
+
+.main-header-right img{
+    width: 500px;
+    height: 400px;
+    border-radius: 150px;
+}
