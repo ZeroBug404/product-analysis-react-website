@@ -9,4 +9,6 @@
     font-size: 20px;
     font-weight: bold;
 }
-
+.headers a:hover{
+    color: red;
+}

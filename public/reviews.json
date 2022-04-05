@@ -1,0 +1,38 @@
+[
+    {
+      "id": "624bd5af2e37eead9ebbea59",
+      "rating": 4,
+      "name": "George Buchanan",
+      "review": "male"
+    },
+    {
+      "id": "624bd5af43497eac2aec49a7",
+      "rating": 4.7,
+      "name": "Joyner Rowland",
+      "review": "male"
+    },
+    {
+      "id": "624bd5af5078edda78395fa9",
+      "rating": 4.6,
+      "name": "West Spears",
+      "review": "male"
+    },
+    {
+      "id": "624bd5afa01a7c46558a4c60",
+      "rating": 4.9,
+      "name": "Claire Santiago",
+      "review": "female"
+    },
+    {
+      "id": "624bd5af4130474d48fea10d",
+      "rating": 4.7,
+      "name": "Stevenson Vasquez",
+      "review": "male"
+    },
+    {
+      "id": "624bd5affcc79495c544fbc0",
+      "rating": 4.9,
+      "name": "Mccullough Rodgers",
+      "review": "It's the ultimate AI content writer, and a must-have tool for bloggers, marketers, & entrepreneurs."
+    }
+  ]
