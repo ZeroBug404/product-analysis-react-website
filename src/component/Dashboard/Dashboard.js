@@ -41,7 +41,7 @@ const Dashboard = () => {
     },
   ];
   return (
-    <div>
+    <div className="charts">
       <div>
           <h2>Chart 1</h2>
         <LineChart width={400} height={500} data={data}>

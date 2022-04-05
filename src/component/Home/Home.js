@@ -1,15 +1,17 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from "react";
+import useReviews from "../../hooks/useReview";
 import Review from "../Review/Review";
 import "./Home.css";
 
 const Home = () => {
-    const [reviews, setReviews] = useState([]);
+    const [reviews, setReviews] = useReviews();
 
-    useEffect(() => {
-        fetch('reviews.json')
-        .then(res => res.json())
-        .then(data => setReviews(data))
-    },[])
+    // useEffect(() => {
+    //     fetch('reviews.json')
+    //     .then(res => res.json())
+    //     .then(data => setReviews(data))
+    // },[])
 
   return (
     <div>
@@ -33,7 +35,10 @@ const Home = () => {
           <h2>Customer Reviews!</h2>
             <div className="review-card">
             {
-                reviews.map(review => <Review review={review}></Review>)
+                reviews.map(review => <Review 
+                    key={review.id}
+                    review={review}
+                    ></Review>)
             }
             </div>
            <div className="review-btn">
